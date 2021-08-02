@@ -1,0 +1,92 @@
+#include<stdio.h>
+#include<math.h>
+
+int main(){
+    float lu, ma, mi, ju, vi;
+    float trabajador1, trabajador2, trabajador3; // suma de las ventas totales
+    float promedio1, promedio2, promedio3;   // suma de las ventas totales dividido entre cantidad de dias(5)
+
+    printf("\n           * NASA - Nutricion Animal S.A * \n");
+    printf("Promedio del trabajo Semanal\n");
+    printf("-------------------------------------------------\n");
+    printf("Trabajador 1: \n");
+
+    printf("Ingrese las ventas del dia LUNES  |: ");
+    scanf("%f", &lu);
+
+    printf("Ingrese las ventas del dia MARTES  |: ");
+    scanf("%f", &ma);
+
+    printf("Ingrese las ventas del dia MIERCOLES: ");
+    scanf("%f", &mi);
+
+    printf("Ingrese las ventas del dia JUEVES: ");
+    scanf("%f", &ju);
+
+    printf("Ingrese las ventas del dia VIERNES: ");
+    scanf("%f", &vi);
+
+    trabajador1 = lu + ma + mi + ju + vi;
+
+    //
+
+    printf("\nTrabajador 2: \n");
+
+    printf("Ingrese las ventas del dia LUNES: ");
+    scanf("%f", &lu);
+
+    printf("Ingrese las ventas del dia MARTES: ");
+    scanf("%f", &ma);
+
+    printf("Ingrese las ventas del dia MIERCOLES: ");
+    scanf("%f", &mi);
+
+    printf("Ingrese las ventas del dia JUEVES: ");
+    scanf("%f", &ju);
+
+    printf("Ingrese las ventas del dia VIERNES: ");
+    scanf("%f", &vi);
+
+    trabajador2 = lu + ma + mi + ju + vi;
+
+    //
+
+    printf("\nTrabajador 3: \n");
+
+    printf("Ingrese las ventas del dia LUNES: ");
+    scanf("%f", &lu);
+
+    printf("Ingrese las ventas del dia MARTES: ");
+    scanf("%f", &ma);
+
+    printf("Ingrese las ventas del dia MIERCOLES: ");
+    scanf("%f", &mi);
+
+    printf("Ingrese las ventas del dia JUEVES: ");
+    scanf("%f", &ju);
+
+    printf("Ingrese las ventas del dia VIERNES: ");
+    scanf("%f", &vi);
+
+    trabajador3 = lu + ma + mi + ju + vi;
+
+    printf("\n * * Resultados: * * \n");
+
+    printf("\nTrabajador 1:");
+    promedio1 = (trabajador1 / 5);
+    printf("\n-El promedio de las ventas del trabajador 1 fue de: %.2f\n", promedio1);
+
+
+    printf("\nTrabajador 2:");
+    promedio2 = (trabajador2 / 5);
+    printf("\n-El promedio de las ventas del trabajador 2 fue de: %.2f\n", promedio2);
+
+
+    printf("\nTrabajador 3:");
+    promedio3 = (trabajador3 / 5);
+    printf("\n-El promedio de las ventas del trabajador 3 fue de;: %.2f\n", promedio3);
+
+
+
+    return 0;
+}
